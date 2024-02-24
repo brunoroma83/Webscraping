@@ -24,6 +24,7 @@ from bs4 import BeautifulSoup
 import json
 from datetime import datetime
 import pandas as pd
+import bancodedados as bd
 
 
 def logger(dados, nome_arquivo='log.json'):
@@ -176,6 +177,9 @@ def scrape_page(datahoje,max_paginas=200):
             dicionario[num_alerta]=list_temp.copy()
 
         
+    #salvar no banco de dados
+    #bd.salvar_alertas(dicionario)
+    
     #antes do final do scrape, fazer o relatório do scrape com os equipamentos
     dicio_fim = {}
     dicio_fim["Alertas encontrados"] = dicionario.copy()
@@ -207,13 +211,7 @@ def gravarDicionario(dicio, nome_dic='dicionario.json'):
     with open(nome_dic, 'w', encoding='utf-8') as arquivo:
         json.dump(dicio_existente, arquivo, ensure_ascii=False)
 
-    #df = pd.DataFrame(data=dicio_existente, index=[1])
-    #df = (df.T)
-    #df.to_excel(f'{nome_dic[:-5]}.xlsx', index=False)
-    #Salvar em Excel
-    #with pd.ExcelWriter(f'{nome_dic[:-5]}.xlsx', engine='openpyxl') as writer:
-    # 2. Export data
-    #    dicio_existente.to_excel(writer, sheet_name='Relatório')
+ 
         
             
 headers = {
