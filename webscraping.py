@@ -301,5 +301,5 @@ logger(d)
 
 scrape_page(datetime.now().strftime("%Y-%m-%d_%H-%M-%S"),20)
 
-relatorio_geral()
+#relatorio_geral()
 
