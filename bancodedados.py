@@ -14,6 +14,7 @@ def salvar_alertas(dicionario):
                    'Ação:' text,
                    'Histórico:' text,
                    'Recomendações:' text,
+                   'Referências' text,
                    'Anexos:' text,
                    'Informações Complementares:' text,
                    'Empresa:' text,

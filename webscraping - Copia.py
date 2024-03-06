@@ -64,6 +64,8 @@ def scrape_page(datahoje,max_paginas=200):
     # acessar até a página 230 depois disso dá erro
     # carregar dicionario json
     nome_arquivo_json = 'dicionario.json'
+    dicionario_carregado = dict()
+    dicionario = defaultdict(default)
     dicionario = {'Alerta': [],
                    'Data do alerta': [],
                    'URL': [],
@@ -84,18 +86,18 @@ def scrape_page(datahoje,max_paginas=200):
                    'Classe de Risco': [],
                    'Modelo afetado': [],
                    'Números de série afetados': []}
-
-    #verificar se o dicionário existe, se sim carrega, se não segue
-    ultimo_alerta_carregado = 0
-    try:
-        with open(nome_arquivo_json, 'r') as f:
-            df = pd.read_json(nome_arquivo_json)
-            #fazer código para pegar o último alerta
-            df['Alerta']=pd.to_numeric(df['Alerta'])
-            ultimo_alerta_carregado = str(df['Alerta'].max())
-    except IOError:
-        dicionario_carregado = False        
-     
+    #dicionario_carregado = pd.read_json(nome_arquivo_json)
+    
+    #Verificar a última linha do dicionnario carregado
+    ultimo_alerta_carregado = "0"
+    if type(dicionario_carregado) is dict:
+        for alerta_carregado in dicionario_carregado:
+            #print(f'{alerta_carregado=}')
+            if ultimo_alerta_carregado < alerta_carregado:
+                ultimo_alerta_carregado = alerta_carregado
+            #print(f'{ultimo_alerta_carregado=}')
+        #dicionario = dicionario_carregado.copy()
+    
     # acessar a paginação do site
     for i in range(1, max_paginas+1):
         url = f'http://antigo.anvisa.gov.br/alertas?pagina={i}'
@@ -109,55 +111,63 @@ def scrape_page(datahoje,max_paginas=200):
             list_temp = {}
             list_temp.clear()        
 
+            # pegar o número do alerta e verificar se já está na base
+
             titulo = quote_element.find('p', class_='titulo').text.strip()
             num_alerta = titulo[7:12].strip()
-            list_temp['Alerta'] = num_alerta
+            if not num_alerta.isdigit():
+                print(f'não encontrou números no alerta: {num_alerta}')
+                logger(f'não encontrou números no alerta: {num_alerta}')
+                continue
 
             if ultimo_alerta_carregado == num_alerta:
                 logger('último alerta carregado igual ao alerta encontrado')
-                print('último alerta carregado igual ao alerta encontrado')
+                
+                #chamar relatório do scrape antes de sair
+                #relatorio_geral(dicionario,f"relatorios/relatorio_scrape_{datahoje}.json",dicionario)
+                if type(dicionario_carregado) is dict:
+                    dicionario.update(dicionario_carregado)
+                gravarDicionario(dicionario)
                 return
         
+            if not 'Alerta' in dicionario: dicionario['Alerta'] = []
+            dicionario['Alerta'].append(int(num_alerta))
             data = quote_element.find('div', class_='span3 data-hora').text.strip()[:10]
-            list_temp["Data do alerta"] = data
+            if not "Data do alerta" in dicionario: dicionario["Data do alerta"] = []
+            dicionario["Data do alerta"].append(data)
             titulo_link = quote_element.find('a', href=True)['href']
-            list_temp["URL"] = titulo_link
+            if not "URL" in dicionario: dicionario['URL'] = []
+            dicionario["URL"].append(titulo_link)
 
             subpage = requests.get(titulo_link, headers=headers)
             subsoup = BeautifulSoup(subpage.text, 'html.parser')
             subpage_elements = subsoup.find('div', class_='bodyModel')
             print(num_alerta)
             #if not str(subpage_elements).find('h4') > 0:
-            if not num_alerta.isdigit() or not str(subpage_elements).find('h4') > 0:
-                print(f'não encontrou números no alerta: {num_alerta}')
-                logger(f'não encontrou números no alerta: {num_alerta}')
-                continue
 
-            for elemento in subpage_elements(['h4','p','a']): #os elementos podem ter H4 e P
+            for elemento in subpage_elements(['div']): #os elementos podem ter H4 e P ['h4','p']
                 
-                if str(elemento).find('h4') > 0: #se tem h4 é uma chave do dicionário
-                    chave_dic = remover_nao_alfabeticos(elemento.text)
+                chave_dic = remover_nao_alfabeticos(str(elemento.find(['h4']).text))
+                valor = ""
+                a = elemento.find_all('a', href=True)
+                if a:                   
+                    for a in elemento.find_all('a', href=True):
+                        valor += f" {a.text} => (https://antigo.anvisa.gov.br{a['href']})."
+                
                 else:
-                    #primeiro verifica se tem link para entrar no modo de salvar os links
-                    a = elemento.find_all('a', href=True)
-                    if a:
-                        for a in elemento.find_all('a', href=True):
-                            if chave_dic in list_temp:
-                                list_temp[chave_dic] += f" {a.text} => (https://antigo.anvisa.gov.br{a['href']})."
-                            else: 
-                                list_temp[chave_dic] = f"{a.text} => (https://antigo.anvisa.gov.br{a['href']})."
-                    else: #caso não tenha link, segue com a inclusão normal
-                        if chave_dic in list_temp:
-                            list_temp[chave_dic] = f"{list_temp[chave_dic]} {str(elemento.text).strip()}"
-                        else:
-                            list_temp[chave_dic] = str(elemento.text).strip()
+                    for e in elemento.find(['p']):
+                        valor += f"{e.text} "
+                if chave_dic in dicionario: 
+                    dicionario[chave_dic].append(valor)
+                    list_temp[chave_dic] = valor
+            #primeiro verifica se tem link para entrar no modo de salvar os links
                
-            if "Resumo" in list_temp:
-                r = list_temp['Resumo']
-                #list_temp['Nome Comercial:'] = r[r.rfind('- ')+2:-1].strip()
-                if r.find('empresa ') > 0:
-                    list_temp['Empresa'] = r[r.find('empresa ')+8:r.rfind(' -')].strip()
-            if "Ação:" in list_temp:
+        
+                if chave_dic == 'Resumo': 
+                    r = valor
+                    if r.find('empresa ') > 0:
+                        list_temp['Empresa'] = r[r.find('empresa ')+8:r.rfind(' -')].strip()
+            if "Ação" in list_temp:
                 r = list_temp['Ação']
                 #list_temp['Nome Comercial:'] = r[r.rfind('- ')+2:-1].strip()
                 if r.lower().find('empresa ') > 0 and not 'Empresa' in list_temp:
@@ -185,18 +195,29 @@ def scrape_page(datahoje,max_paginas=200):
                             continue
             else:
                 list_temp['Identificação do produto ou caso'] = "não encontrado"
-            
+            for a in [list_chave, 'Empresa']:
+                if a not in list_temp: list_temp[a]=""
+                dicionario[a].append(list_temp[a])
+                
             logger(f'Alerta adicionado: {num_alerta}')
-            #incluir dados do alerta no dicionario
-            for chave, valor in dicionario.items():
-                if chave in list_temp: dicionario[chave].append(list_temp[chave])
-                else: dicionario[chave].append(' ')
-   
-    logger("fim do scrape")
-    print('fim do scrape')
-    df = pd.DataFrame(dicionario)
-    df.to_json('dicionario.json')
-      
+            #dicionario[num_alerta]= {}
+            #dicionario[num_alerta]=list_temp.copy()
+            #dicionario.update(list_temp.copy())
+
+        
+    #salvar no banco de dados
+    #bd.salvar_alertas(dicionario)
+    
+    #antes do final do scrape, fazer o relatório do scrape com os equipamentos
+    dicio_fim = {}
+    dicio_fim["Alertas encontrados"] = dicionario.copy()
+    dicio_fim['Alertas encontrados']['Quantidade'] = len(dicionario)
+    #relatorio_geral(dicionario,f"relatorios/relatorio_scrape_{datahoje}.json",dicio_fim)
+    #if type(dicionario_carregado) is dict:
+    #    dicionario.update(dicionario_carregado)
+    
+    gravarDicionario(dicionario)
+       
     logger("fim do scrape")
             
 def remover_nao_alfabeticos(texto):
@@ -252,6 +273,7 @@ d = {'data-hora início': datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
 
 logger(d)
 
-scrape_page(datetime.now().strftime("%Y-%m-%d_%H-%M-%S"),300)
+scrape_page(datetime.now().strftime("%Y-%m-%d_%H-%M-%S"),1)
 
+#relatorio_geral()
 
