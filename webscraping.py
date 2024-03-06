@@ -242,10 +242,6 @@ def converter_xlx_json(arquivo):
     with open(path_json, 'w', encoding='utf-8') as json_file:
         json_file.write(equipamentos_json)
 
-
-
-
-
 logs = []
 
 d = {'data-hora início': datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
