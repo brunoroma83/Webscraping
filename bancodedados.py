@@ -27,7 +27,7 @@ def salvar_alertas(dicionario):
                    'Números de série afetados:' text)
     """)
     
-    for chave, valor in dicionario.items():
+    for chave, valor in dicionario  .items():
         valores = []
         valores = list(valor.values())
         if len(valores) == 19: cursor.execute("INSERT OR IGNORE INTO alertas VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", valores)

@@ -25,10 +25,6 @@ import json
 from datetime import datetime
 import pandas as pd
 import bancodedados as bd
-from collections import defaultdict
-
-def default():
-    return ""
 
 def logger(dados, nome_arquivo='log.json'):
     # Carregar dados existentes, se houver
@@ -93,11 +89,15 @@ def scrape_page(datahoje,max_paginas=200):
             #fazer código para pegar o último alerta
             df['Alerta']=pd.to_numeric(df['Alerta'])
             ultimo_alerta_carregado = str(df['Alerta'].max())
+            dicionario_carregado = True
     except IOError:
         dicionario_carregado = False        
-     
+
+    finalizar = False 
+
     # acessar a paginação do site
     for i in range(1, max_paginas+1):
+        if (finalizar): break
         url = f'http://antigo.anvisa.gov.br/alertas?pagina={i}'
         print(url)
         page = requests.get(url, headers=headers)
@@ -116,7 +116,8 @@ def scrape_page(datahoje,max_paginas=200):
             if ultimo_alerta_carregado == num_alerta:
                 logger('último alerta carregado igual ao alerta encontrado')
                 print('último alerta carregado igual ao alerta encontrado')
-                return
+                finalizar = True
+                break
         
             data = quote_element.find('div', class_='span3 data-hora').text.strip()[:10]
             list_temp["Data do alerta"] = data
@@ -194,10 +195,13 @@ def scrape_page(datahoje,max_paginas=200):
    
     logger("fim do scrape")
     print('fim do scrape')
-    df = pd.DataFrame(dicionario)
-    df.to_json('dicionario.json')
-      
-    logger("fim do scrape")
+    df_novo = pd.DataFrame(dicionario)
+    # antes de salvar o dicionario, precisar juntar os dois dicionarios
+    if dicionario_carregado: 
+        df = pd.concat([df, df_novo], ignore_index=True)
+    else: 
+        df = df_novo    
+    df.to_json(f'dicionario.json')
             
 def remover_nao_alfabeticos(texto):
     for caractere in ":;.!@#$%^&*()-+?_=,<>/0123456789":
