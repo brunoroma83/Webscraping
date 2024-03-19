@@ -246,6 +246,29 @@ def converter_xlx_json(arquivo):
     with open(path_json, 'w', encoding='utf-8') as json_file:
         json_file.write(equipamentos_json)
 
+def separar_alertas():
+
+    nome='dicionario.json'
+    df = pd.read_json(nome)
+    dicionario = df.to_dict('records')    
+    reg_anvisa_alerta = {'Alerta':[],'Número de registro ANVISA':[]}
+
+    i = 0
+    for x in dicionario:
+        alerta = x['Alerta']
+        reg_anvisa = str(x['Número de registro ANVISA']).split(';')
+        for x in reg_anvisa:
+            reg_anvisa_alerta['Alerta'].append(str(alerta))
+            reg_anvisa_alerta['Número de registro ANVISA'].append(x.strip())
+            #reg_anvisa_alerta = pd.concat([reg_anvisa_alerta, temp_df], ignore_index=True)
+            #print(f'{alerta} -> reg anvisa: "{x}"')
+        #i += 1
+        if i > 5: break
+    df_reg = pd.DataFrame(reg_anvisa_alerta)
+    #print(df_reg.info)
+    df_reg.to_json('reg_anvisa_alerta.json')
+    return df_reg
+
 logs = []
 
 d = {'data-hora início': datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
@@ -254,4 +277,4 @@ logger(d)
 
 scrape_page(datetime.now().strftime("%Y-%m-%d_%H-%M-%S"),300)
 
-
+print(separar_alertas())

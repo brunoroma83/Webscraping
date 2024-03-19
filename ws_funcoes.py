@@ -1,13 +1,13 @@
 import pandas as pd
 
 # objetivo é analilsar o banco de dados e criar um arquivo json contendo as correspondências reg anvisa e alertas
-nome='dicionario.json'
-df = pd.read_json(nome)
-dicionario = df.to_dict('records')
+
 
 def separar_alertas():
 
-    
+    nome='dicionario.json'
+    df = pd.read_json(nome)
+    dicionario = df.to_dict('records')    
     reg_anvisa_alerta = {'Alerta':[],'Número de registro ANVISA':[]}
 
     i = 0
