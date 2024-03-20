@@ -1,20 +1,12 @@
-# monitoramento de alertas de tecnoviligância no site da Anvisa
-# O programa para entrar no site da Anvisa Alertas de Tecnovigilância (OK)
-# fazer um web scraping dos alertas (OK)
-# salvar as informações em banco de dados (a princício Google Sheets) (parcial)
-# o programa deve rodar diariamente as 00:00 automaticamente
+API para consultar alertas de tecnoviligância ANVISA
+Consulta registro Anvisa: brunoroma.pythonanywhere.com/registro/<registro> para consultar registros Anvisa e retornar os alertas relacionados
+Exemplo: https://brunoroma.pythonanywhere.com/registro/80146502070
 
-# Objetivo principal: fazer um relatório diário e um mensal automaticamente, informando um resumo dos novos alertas
-# o programa deve ainda comparar se algum novo alerta contém o mesmo registro Anvisa de algum equipamento da base
-# havendo equipamento na base com alerta novo, deve incluir no relatório
-# Objetivo secundário: permitir pesquisa dos alertas por fabricante, registro anvisa, nome comercial, nome técnico, por data
-# permitir pesquisa por API para integrações
+Consulta alerta: brunoroma.pythonanywhere.com/alerta/<alerta> para consultar um alerta e retornar os registros Anvisa relacionados
+Exemplo: https://brunoroma.pythonanywhere.com/alerta/4361
 
-# como não consegui conectar no Google Sheets com om Python vou fazer o scrape com o python
-# verificar se há novos alertas e salvar os alertas no arquivo dicionario.JSON
-# o Google App Script vai pegar o dicionario e alimentar a planilha
-# Como verificar se houve novo alerta alimentado?
-# no Google App Script podemos verificar se o número do alerta da última alimentação é igual
-# ao 
-# 25/01/2024 vou tentar comparar a lista de notificações com uma lista de números de registro ANVISA da minha base
-# com o objetivo de criar um relatório toda vez que o programa for rodado
+A base de dados é coletada pelo script webscraping.py que entra no site de alertas da Anvisa e coleta as informações e armazena no arquivo dicionario.json, este arquivo grava todas as informações dos alertas.
+
+O arquivo reg_anvisa_alerta.json relaciona os alertas com os registros Anvisa
+
+Ainda tem alguns erros nos dados tratados, pois a lógica de disposição do texto no site do alerta mudou. O script está mais calibrado para os alertas mais recentes, então os alertas mais antigos devem estar com mais erros. Precisa arrumar os dados mais antigos. 

@@ -6,7 +6,16 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Bem-Vindo a API de consulta de alerta por registro ANVISA!'
+    return """
+    Bem-Vindo a API de consulta de alerta por registro ANVISA!
+    
+    Exemplos de consultas:
+    https://brunoroma.pythonanywhere.com/alerta/4361
+    https://brunoroma.pythonanywhere.com/registro/80146502070
+
+    by Bruno Roma - contato@brunoroma.eng.br
+
+    """
 
 @app.route('/registro/<registro>', methods=['GET'])
 def registro(registro):
