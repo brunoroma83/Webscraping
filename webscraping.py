@@ -25,7 +25,7 @@ import json
 from datetime import datetime
 import pandas as pd
 
-def logger(dados, nome_arquivo='log.json'):
+def logger(dados, nome_arquivo='/home/brunoroma/Webscraping/log.json'):
     # Carregar dados existentes, se houver
     try:
         with open(nome_arquivo, 'r', encoding='utf-8') as arquivo:
@@ -42,23 +42,10 @@ def logger(dados, nome_arquivo='log.json'):
     with open(nome_arquivo, 'w', encoding='utf-8') as arquivo:
         json.dump(logs_existente, arquivo, ensure_ascii=False)
 
-
-def carregar_json(nome_arquivo):
-    try:
-        with open(nome_arquivo, 'r', encoding='utf-8') as arquivo:
-            dados_json = json.load(arquivo)
-        return dados_json
-    except FileNotFoundError:
-        logger(f"O arquivo '{nome_arquivo}' não foi encontrado.")
-        return {}
-    except json.JSONDecodeError:
-        logger(f"Erro ao decodificar o JSON no arquivo '{nome_arquivo}'. Verifique a formatação do JSON.")
-        return {}
-
 def scrape_page(datahoje,max_paginas=200):
     # acessar até a página 230 depois disso dá erro
     # carregar dicionario json
-    nome_arquivo_json = 'dicionario.json'
+    nome_arquivo_json = '/home/brunoroma/Webscraping/dicionario.json'
     dicionario = {'Alerta': [],
                    'Data do alerta': [],
                    'URL': [],
@@ -207,7 +194,7 @@ def remover_nao_alfabeticos(texto):
         texto = texto.replace(caractere, "")
     return texto
 
-def gravarDicionario(dicio, nome_dic='dicionario.json'):
+def gravarDicionario(dicio, nome_dic='/home/brunoroma/Webscraping/dicionario.json'):
     with open(nome_dic, "w", encoding="utf-8") as file:
         json.dump(dicio, file, ensure_ascii=False)
     logger("Dicionário gravado")
@@ -247,7 +234,7 @@ def converter_xlx_json(arquivo):
 
 def separar_alertas():
 
-    nome='dicionario.json'
+    nome='/home/brunoroma/Webscraping/dicionario.json'
     df = pd.read_json(nome)
     dicionario = df.to_dict('records')
     
@@ -266,7 +253,7 @@ def separar_alertas():
         if i > 5: break
     df_reg = pd.DataFrame(reg_anvisa_alerta)
     #print(df_reg.info)
-    df_reg.to_json('reg_anvisa_alerta.json')
+    df_reg.to_json('/home/brunoroma/Webscraping/reg_anvisa_alerta.json')
     
 
 logs = []
