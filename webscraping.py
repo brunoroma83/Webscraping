@@ -18,6 +18,8 @@
 # ao 
 # 25/01/2024 vou tentar comparar a lista de notificações com uma lista de números de registro ANVISA da minha base
 # com o objetivo de criar um relatório toda vez que o programa for rodado
+# a versão gratuita do PythonAnyWhere.com não suporta acessar urls fora da whitelist (https://www.pythonanywhere.com/whitelist/)
+# ou seja, não é possível scanear o site da Anvisa com a versão gratuita
 
 import requests
 from bs4 import BeautifulSoup
@@ -25,7 +27,7 @@ import json
 from datetime import datetime
 import pandas as pd
 
-def logger(dados, nome_arquivo='/home/brunoroma/Webscraping/log.json'):
+def logger(dados, nome_arquivo='log.json'):
     # Carregar dados existentes, se houver
     try:
         with open(nome_arquivo, 'r', encoding='utf-8') as arquivo:
@@ -45,7 +47,7 @@ def logger(dados, nome_arquivo='/home/brunoroma/Webscraping/log.json'):
 def scrape_page(datahoje,max_paginas=200):
     # acessar até a página 230 depois disso dá erro
     # carregar dicionario json
-    nome_arquivo_json = '/home/brunoroma/Webscraping/dicionario.json'
+    nome_arquivo_json = 'dicionario.json'
     dicionario = {'Alerta': [],
                    'Data do alerta': [],
                    'URL': [],
@@ -194,7 +196,7 @@ def remover_nao_alfabeticos(texto):
         texto = texto.replace(caractere, "")
     return texto
 
-def gravarDicionario(dicio, nome_dic='/home/brunoroma/Webscraping/dicionario.json'):
+def gravarDicionario(dicio, nome_dic='dicionario.json'):
     with open(nome_dic, "w", encoding="utf-8") as file:
         json.dump(dicio, file, ensure_ascii=False)
     logger("Dicionário gravado")
@@ -234,7 +236,7 @@ def converter_xlx_json(arquivo):
 
 def separar_alertas():
 
-    nome='/home/brunoroma/Webscraping/dicionario.json'
+    nome='dicionario.json'
     df = pd.read_json(nome)
     dicionario = df.to_dict('records')
     
@@ -253,7 +255,7 @@ def separar_alertas():
         if i > 5: break
     df_reg = pd.DataFrame(reg_anvisa_alerta)
     #print(df_reg.info)
-    df_reg.to_json('/home/brunoroma/Webscraping/reg_anvisa_alerta.json')
+    df_reg.to_json('reg_anvisa_alerta.json')
     
 
 logs = []
