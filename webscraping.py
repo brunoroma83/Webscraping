@@ -189,7 +189,7 @@ def scrape_page(datahoje,max_paginas=200):
         df = pd.concat([df, df_novo], ignore_index=True)
     else: 
         df = df_novo    
-    df.to_json(f'dicionario.json')
+    df.to_json(f'dicionario.json', force_ascii=False)
             
 def remover_nao_alfabeticos(texto):
     for caractere in ":;.!@#$%^&*()-+?_=,<>/0123456789":
@@ -255,7 +255,7 @@ def separar_alertas():
         if i > 5: break
     df_reg = pd.DataFrame(reg_anvisa_alerta)
     #print(df_reg.info)
-    df_reg.to_json('reg_anvisa_alerta.json')
+    df_reg.to_json('reg_anvisa_alerta.json', force_ascii=False)
     
 
 logs = []
