@@ -67,7 +67,7 @@ def registro(registro):
         resposta = f'Nenhum alerta encontrado para {registro}'
         info["resposta"] = resposta        
     else: 
-        resposta = df_reg_filtrado
+        resposta = df_reg_filtrado.to_string()
     logger(info)
     return resposta
 
