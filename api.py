@@ -59,7 +59,7 @@ def registro(registro):
     df_reg = pd.read_json('/home/brunoroma/Webscraping/reg_anvisa_alerta.json')
     info = dict()
     info["IP"]=request.remote_addr
-    info["args"]=request.args
+    info["url"]=request.url
     #print(df_reg.value_counts('Número de registro ANVISA'))
     df_reg_filtrado = df_reg.loc[df_reg['Número de registro ANVISA'].isin([registro])]
     #return df_reg_filtrado
@@ -103,8 +103,8 @@ def logger(dados, nome_arquivo='/home/brunoroma/Webscraping/log_api.json'):
 
     # Adicionar novos dados
     data_hora = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    novo_log = {'data-hora término': data_hora, 'dados': dados}
-    logs_existente.append(novo_log)
+    dados['data-hora'] = data_hora
+    logs_existente.append(dados)
 
     # Salvar os dados atualizados no arquivo JSON
     with open(nome_arquivo, 'w', encoding='utf-8') as arquivo:
