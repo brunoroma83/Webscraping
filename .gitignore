@@ -2,3 +2,4 @@ test*
 webscraping2.py
 dicionario2.json
 gemini_api.py
+.env
