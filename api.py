@@ -1,6 +1,8 @@
 #versão que funciona no pythonanywhere.com
 from flask import Flask, request
 import pandas as pd
+import json
+from datetime import datetime
 
 app = Flask(__name__)
 
