@@ -8,26 +8,27 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return """
-    <html><head></head><body><pre>
-    Bem-Vindo a API de consulta de alerta por registro ANVISA!
+    df_reg = pd.read_json('/home/brunoroma/Webscraping/reg_anvisa_alerta.json')
+    return f"""
+    <html><head></head><body>
+    <h1>Bem-Vindo a API de consulta de alerta por registro ANVISA!</h1>
 
-    Exemplos de consultas:
-    https://brunoroma.pythonanywhere.com/alerta/4361
-    https://brunoroma.pythonanywhere.com/registro/80146502070
+    <p>Exemplos de consultas:<br>
+    <a href="https://brunoroma.pythonanywhere.com/alerta/4361">https://brunoroma.pythonanywhere.com/alerta/4361</a><br>
+    <a href="https://brunoroma.pythonanywhere.com/registro/80146502070">https://brunoroma.pythonanywhere.com/registro/80146502070M</a></p>
 
-    by Bruno Roma - contato@brunoroma.eng.br
+    <p>by Bruno Roma - contato@brunoroma.eng.br</p>
 
-    Para automatizar a consulta de alertas no Excel:
+    <p>Para automatizar a consulta de alertas no Excel:</p>
 
-    Você pode usar essa função da seguinte maneira:
+    <p>Você pode usar essa função da seguinte maneira:</p>
+<p>
+    1. Na planilha do Excel, insira o número do registro em uma célula, por exemplo, A1.<br>
+    2. Em outra célula, digite `=ConsultarAPI(A1)` para chamar a função e passar o valor da célula A1 como parâmetro.<br>
+    3. Pressione Enter para obter o resultado da API na célula.<br>
 
-    1. Na planilha do Excel, insira o número do registro em uma célula, por exemplo, A1.
-    2. Em outra célula, digite `=ConsultarAPI(A1)` para chamar a função e passar o valor da célula A1 como parâmetro.
-    3. Pressione Enter para obter o resultado da API na célula.
-
-    Certifique-se de que o formato do registro esteja correto para ser usado na URL da API. Se a API esperar um formato diferente, você pode precisar ajustar o código conforme necessário.
-
+    <p>Certifique-se de que o formato do registro esteja correto para ser usado na URL da API. Se a API esperar um formato diferente, você pode precisar ajustar o código conforme necessário.</p>
+<pre>
 código vba
 Function ConsultarAPI(registro As String) As String
     Dim req As Object
@@ -51,6 +52,14 @@ Function ConsultarAPI(registro As String) As String
     ConsultarAPI = resposta
 End Function
 
+        
+    Alerta Info
+    {df_reg}
+
+    Último alerta registrado: {df_reg['Alerta'].max()}
+
+    Top 20 registros:
+    {df_reg.value_counts('Número de registro ANVISA').head(20)}
     </pre></body></html>
     """
 
