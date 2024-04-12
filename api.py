@@ -15,11 +15,18 @@ def index():
 
     <p>Exemplos de consultas:<br>
     <a href="https://brunoroma.pythonanywhere.com/alerta/4361">https://brunoroma.pythonanywhere.com/alerta/4361</a><br>
-    <a href="https://brunoroma.pythonanywhere.com/registro/80146502070">https://brunoroma.pythonanywhere.com/registro/80146502070M</a></p>
+    <a href="https://brunoroma.pythonanywhere.com/registro/80146502070">https://brunoroma.pythonanywhere.com/registro/80146502070</a></p>
 
     <p>by Bruno Roma - contato@brunoroma.eng.br</p>
 
-    <p>Para automatizar a consulta de alertas no Excel:</p>
+    <h3>Consulta oficial aos alertas no site da Anvisa</h3>
+
+    <p>
+    <a href="https://www.gov.br/anvisa/pt-br/acessoainformacao/dadosabertos/informacoes-analiticas/tecnovigilancia/acao-de-campo-e-alerta-sanitario-tecnovigilancia">Ação de campo e alerta Sanitário - Tecnovigilância</a><br>
+    <a href="https://antigo.anvisa.gov.br/alertas#">Alertas - ANVISA</a>    
+    </p>
+
+    <h3>Para automatizar a consulta de alertas no Excel:</h3>
 
     <p>Você pode usar essa função da seguinte maneira:</p>
 <p>
