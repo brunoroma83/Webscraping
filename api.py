@@ -28,6 +28,8 @@ def index():
 
     <h3>Para automatizar a consulta de alertas no Excel:</h3>
 
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/taebntZG5Ls?si=MoHIckyN_XuY1L4m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
     <p>Você pode usar essa função da seguinte maneira:</p>
 <p>
     1. Na planilha do Excel, insira o número do registro em uma célula, por exemplo, A1.<br>
