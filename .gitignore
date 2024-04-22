@@ -2,4 +2,5 @@ test*
 webscraping2.py
 dicionario2.json
 gemini_api.py
+log_api.json
 .env

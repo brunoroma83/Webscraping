@@ -1,0 +1,2246 @@
+[
+  {
+    "data-hora término": "2024-04-12 00:44:35",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {}
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 00:47:12",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {}
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:08:37",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {}
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:08:56",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {}
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:09:57",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80943610134"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:10:15",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 10407370098"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:10:42",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 10188530017"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:10:44",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 10188530081"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:10:55",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 10230870073"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:08",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 10349000386"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:08",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80017480001"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:08",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80102510773"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:09",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80127840017"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:09",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80884260002"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:09",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80389130036"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:09",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80117580648"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:09",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80389130032"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:09",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 10229820091"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:10",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 10390410103"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:10",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80058130010"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:10",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {}
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:10",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80914690011"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:10",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80009860010"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:10",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80209920006"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:11",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80070210004"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:11",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80112550003"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:11",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80203470011"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:11",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80659160003"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:11",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 10247670046"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:11",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80070219019"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:12:12",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {},
+      "resposta": "Nenhum alerta encontrado para 80659160004"
+    }
+  },
+  {
+    "data-hora término": "2024-04-12 01:20:13",
+    "dados": {
+      "IP": "10.0.0.20",
+      "args": {}
+    }
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80146502070",
+    "data-hora": "2024-04-12 01:20:53"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/(vazio)",
+    "resposta": "Nenhum alerta encontrado para (vazio)",
+    "data-hora": "2024-04-12 01:36:40"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Total%20Geral",
+    "resposta": "Nenhum alerta encontrado para Total Geral",
+    "data-hora": "2024-04-12 01:36:40"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80943610134",
+    "resposta": "Nenhum alerta encontrado para 80943610134",
+    "data-hora": "2024-04-12 23:00:36"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10188530017",
+    "resposta": "Nenhum alerta encontrado para 10188530017",
+    "data-hora": "2024-04-12 23:00:40"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10247670046",
+    "resposta": "Nenhum alerta encontrado para 10247670046",
+    "data-hora": "2024-04-12 23:00:40"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80009860010",
+    "resposta": "Nenhum alerta encontrado para 80009860010",
+    "data-hora": "2024-04-12 23:00:40"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80070219019",
+    "resposta": "Nenhum alerta encontrado para 80070219019",
+    "data-hora": "2024-04-12 23:00:40"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80117580648",
+    "resposta": "Nenhum alerta encontrado para 80117580648",
+    "data-hora": "2024-04-12 23:00:40"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80209920006",
+    "resposta": "Nenhum alerta encontrado para 80209920006",
+    "data-hora": "2024-04-12 23:00:41"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80659160004",
+    "resposta": "Nenhum alerta encontrado para 80659160004",
+    "data-hora": "2024-04-12 23:00:41"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Total%20Geral",
+    "resposta": "Nenhum alerta encontrado para Total Geral",
+    "data-hora": "2024-04-12 23:00:41"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10349000386",
+    "resposta": "Nenhum alerta encontrado para 10349000386",
+    "data-hora": "2024-04-12 23:00:41"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80017480001",
+    "resposta": "Nenhum alerta encontrado para 80017480001",
+    "data-hora": "2024-04-12 23:00:41"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80127840017",
+    "resposta": "Nenhum alerta encontrado para 80127840017",
+    "data-hora": "2024-04-12 23:00:41"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80884260002",
+    "resposta": "Nenhum alerta encontrado para 80884260002",
+    "data-hora": "2024-04-12 23:00:41"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370098",
+    "resposta": "Nenhum alerta encontrado para 10407370098",
+    "data-hora": "2024-04-12 23:00:42"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80659160003",
+    "resposta": "Nenhum alerta encontrado para 80659160003",
+    "data-hora": "2024-04-12 23:00:42"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10188530081",
+    "resposta": "Nenhum alerta encontrado para 10188530081",
+    "data-hora": "2024-04-12 23:00:42"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80102510773",
+    "resposta": "Nenhum alerta encontrado para 80102510773",
+    "data-hora": "2024-04-12 23:00:42"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80389130032",
+    "resposta": "Nenhum alerta encontrado para 80389130032",
+    "data-hora": "2024-04-12 23:00:42"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80914690011",
+    "resposta": "Nenhum alerta encontrado para 80914690011",
+    "data-hora": "2024-04-12 23:00:42"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80070210004",
+    "resposta": "Nenhum alerta encontrado para 80070210004",
+    "data-hora": "2024-04-12 23:00:43"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80203470011",
+    "resposta": "Nenhum alerta encontrado para 80203470011",
+    "data-hora": "2024-04-12 23:00:43"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10229820091",
+    "resposta": "Nenhum alerta encontrado para 10229820091",
+    "data-hora": "2024-04-12 23:00:43"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10390410103",
+    "resposta": "Nenhum alerta encontrado para 10390410103",
+    "data-hora": "2024-04-12 23:00:43"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80058130010",
+    "resposta": "Nenhum alerta encontrado para 80058130010",
+    "data-hora": "2024-04-12 23:00:43"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80102511461",
+    "data-hora": "2024-04-12 23:00:43"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80146502070",
+    "data-hora": "2024-04-12 23:00:43"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80389130036",
+    "resposta": "Nenhum alerta encontrado para 80389130036",
+    "data-hora": "2024-04-12 23:00:44"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80112550003",
+    "resposta": "Nenhum alerta encontrado para 80112550003",
+    "data-hora": "2024-04-12 23:00:44"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/(vazio)",
+    "resposta": "Nenhum alerta encontrado para (vazio)",
+    "data-hora": "2024-04-12 23:00:44"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10230870073",
+    "resposta": "Nenhum alerta encontrado para 10230870073",
+    "data-hora": "2024-04-12 23:00:44"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/CMOS%20Drake",
+    "resposta": "Nenhum alerta encontrado para CMOS Drake",
+    "data-hora": "2024-04-12 23:01:12"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Conmed",
+    "resposta": "Nenhum alerta encontrado para Conmed",
+    "data-hora": "2024-04-12 23:01:12"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/ELGI",
+    "resposta": "Nenhum alerta encontrado para ELGI",
+    "data-hora": "2024-04-12 23:01:12"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Globaltec",
+    "resposta": "Nenhum alerta encontrado para Globaltec",
+    "data-hora": "2024-04-12 23:01:12"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Bionet",
+    "resposta": "Nenhum alerta encontrado para Bionet",
+    "data-hora": "2024-04-12 23:01:12"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Drager",
+    "resposta": "Nenhum alerta encontrado para Drager",
+    "data-hora": "2024-04-12 23:01:13"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Barrfab",
+    "resposta": "Nenhum alerta encontrado para Barrfab",
+    "data-hora": "2024-04-12 23:01:13"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/COMEN",
+    "resposta": "Nenhum alerta encontrado para COMEN",
+    "data-hora": "2024-04-12 23:01:13"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Covidien",
+    "resposta": "Nenhum alerta encontrado para Covidien",
+    "data-hora": "2024-04-12 23:01:13"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Fanem",
+    "resposta": "Nenhum alerta encontrado para Fanem",
+    "data-hora": "2024-04-12 23:01:13"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Beachtold",
+    "resposta": "Nenhum alerta encontrado para Beachtold",
+    "data-hora": "2024-04-12 23:01:13"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Air%20Liquide",
+    "resposta": "Nenhum alerta encontrado para Air Liquide",
+    "data-hora": "2024-04-12 23:01:13"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/15.000%20Litros",
+    "resposta": "Nenhum alerta encontrado para 15.000 Litros",
+    "data-hora": "2024-04-12 23:01:23"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/System%202450",
+    "resposta": "Nenhum alerta encontrado para System 2450",
+    "data-hora": "2024-04-12 23:01:23"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Cardio7",
+    "resposta": "Nenhum alerta encontrado para Cardio7",
+    "data-hora": "2024-04-12 23:01:24"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/AX%20-%20400",
+    "resposta": "Nenhum alerta encontrado para AX - 400",
+    "data-hora": "2024-04-12 23:01:24"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Surgiflator%2040",
+    "resposta": "Nenhum alerta encontrado para Surgiflator 40",
+    "data-hora": "2024-04-12 23:01:24"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Puritan%20Bennet%20840",
+    "resposta": "Nenhum alerta encontrado para Puritan Bennet 840",
+    "data-hora": "2024-04-12 23:01:24"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/CardioCare-2000",
+    "resposta": "Nenhum alerta encontrado para CardioCare-2000",
+    "data-hora": "2024-04-12 23:01:24"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/F300",
+    "resposta": "Nenhum alerta encontrado para F300",
+    "data-hora": "2024-04-12 23:01:24"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Life%20400%20Plus%20Futura",
+    "resposta": "Nenhum alerta encontrado para Life 400 Plus Futura",
+    "data-hora": "2024-04-12 23:01:25"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Motorizada%20BF683%20TDP",
+    "resposta": "Nenhum alerta encontrado para Motorizada BF683 TDP",
+    "data-hora": "2024-04-12 23:01:25"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Carmel",
+    "resposta": "Nenhum alerta encontrado para Carmel",
+    "data-hora": "2024-04-12 23:01:45"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Eleganza%201",
+    "resposta": "Nenhum alerta encontrado para Eleganza 1",
+    "data-hora": "2024-04-12 23:01:45"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/FL-2000",
+    "resposta": "Nenhum alerta encontrado para FL-2000",
+    "data-hora": "2024-04-12 23:01:45"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Basic",
+    "resposta": "Nenhum alerta encontrado para Basic",
+    "data-hora": "2024-04-12 23:01:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/BELLAVISTA%201000",
+    "resposta": "Nenhum alerta encontrado para BELLAVISTA 1000",
+    "data-hora": "2024-04-12 23:01:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/Cardiolife",
+    "resposta": "Nenhum alerta encontrado para Cardiolife",
+    "data-hora": "2024-04-12 23:01:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/FlexiMag%20Plus",
+    "resposta": "Nenhum alerta encontrado para FlexiMag Plus",
+    "data-hora": "2024-04-12 23:01:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/CSW%2060",
+    "resposta": "Nenhum alerta encontrado para CSW 60",
+    "data-hora": "2024-04-12 23:01:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/14014PO",
+    "resposta": "Nenhum alerta encontrado para 14014PO",
+    "data-hora": "2024-04-12 23:01:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80146502070",
+    "data-hora": "2024-04-12 23:16:59"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80146502070",
+    "data-hora": "2024-04-13 01:22:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80146502070",
+    "data-hora": "2024-04-13 01:30:11"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80146502070",
+    "data-hora": "2024-04-13 21:57:57"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370004",
+    "resposta": "Nenhum alerta encontrado para �80629370004",
+    "data-hora": "2024-04-15 11:38:38"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370012",
+    "resposta": "Nenhum alerta encontrado para �80629370012",
+    "data-hora": "2024-04-15 11:38:45"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370008",
+    "resposta": "Nenhum alerta encontrado para �80629370008",
+    "data-hora": "2024-04-15 11:38:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370013",
+    "resposta": "Nenhum alerta encontrado para �80629370013",
+    "data-hora": "2024-04-15 11:38:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370017",
+    "resposta": "Nenhum alerta encontrado para �80629370017",
+    "data-hora": "2024-04-15 11:38:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370021",
+    "resposta": "Nenhum alerta encontrado para �80629370021",
+    "data-hora": "2024-04-15 11:38:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80047300496",
+    "resposta": "Nenhum alerta encontrado para 80047300496",
+    "data-hora": "2024-04-15 11:38:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370014",
+    "resposta": "Nenhum alerta encontrado para �80629370014",
+    "data-hora": "2024-04-15 11:38:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370018",
+    "resposta": "Nenhum alerta encontrado para �80629370018",
+    "data-hora": "2024-04-15 11:38:47"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80047300416",
+    "resposta": "Nenhum alerta encontrado para 80047300416",
+    "data-hora": "2024-04-15 11:38:47"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80629379002",
+    "data-hora": "2024-04-15 11:38:47"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370011",
+    "resposta": "Nenhum alerta encontrado para �80629370011",
+    "data-hora": "2024-04-15 11:38:47"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370019",
+    "resposta": "Nenhum alerta encontrado para �80629370019",
+    "data-hora": "2024-04-15 11:38:47"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80047300464",
+    "resposta": "Nenhum alerta encontrado para 80047300464",
+    "data-hora": "2024-04-15 11:38:48"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80629379001",
+    "resposta": "Nenhum alerta encontrado para 80629379001",
+    "data-hora": "2024-04-15 11:38:48"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370016",
+    "resposta": "Nenhum alerta encontrado para �80629370016",
+    "data-hora": "2024-04-15 11:38:50"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370020",
+    "resposta": "Nenhum alerta encontrado para �80629370020",
+    "data-hora": "2024-04-15 11:38:50"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80047309086",
+    "resposta": "Nenhum alerta encontrado para 80047309086",
+    "data-hora": "2024-04-15 11:38:50"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370009",
+    "resposta": "Nenhum alerta encontrado para �80629370009",
+    "data-hora": "2024-04-15 11:38:51"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�80629370006",
+    "resposta": "Nenhum alerta encontrado para �80629370006",
+    "data-hora": "2024-04-15 11:38:51"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/81246984632",
+    "data-hora": "2024-04-16 17:18:29"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/81246984632",
+    "data-hora": "2024-04-16 17:19:26"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/81246984632",
+    "data-hora": "2024-04-16 17:23:29"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/81246984632",
+    "data-hora": "2024-04-16 17:24:03"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10345162127",
+    "data-hora": "2024-04-16 17:24:16"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80146502070",
+    "data-hora": "2024-04-17 14:57:58"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10216710222",
+    "data-hora": "2024-04-17 17:12:04"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80145110159",
+    "resposta": "Nenhum alerta encontrado para 80145110159",
+    "data-hora": "2024-04-17 17:12:36"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80145110213",
+    "resposta": "Nenhum alerta encontrado para 80145110213",
+    "data-hora": "2024-04-17 17:12:49"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620067",
+    "resposta": "Nenhum alerta encontrado para 10224620067",
+    "data-hora": "2024-04-17 17:12:50"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10242950009",
+    "resposta": "Nenhum alerta encontrado para 10242950009",
+    "data-hora": "2024-04-17 17:12:50"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620049",
+    "resposta": "Nenhum alerta encontrado para 10224620049",
+    "data-hora": "2024-04-17 17:12:50"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620053",
+    "resposta": "Nenhum alerta encontrado para 10224620053",
+    "data-hora": "2024-04-17 17:12:51"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620035",
+    "resposta": "Nenhum alerta encontrado para 10224620035",
+    "data-hora": "2024-04-17 17:12:51"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10339190498",
+    "resposta": "Nenhum alerta encontrado para 10339190498",
+    "data-hora": "2024-04-17 17:12:51"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10293490035",
+    "resposta": "Nenhum alerta encontrado para 10293490035",
+    "data-hora": "2024-04-17 17:12:51"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10293490037",
+    "resposta": "Nenhum alerta encontrado para 10293490037",
+    "data-hora": "2024-04-17 17:12:52"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10234370059",
+    "resposta": "Nenhum alerta encontrado para 10234370059",
+    "data-hora": "2024-04-17 17:12:52"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80127849010",
+    "resposta": "Nenhum alerta encontrado para 80127849010",
+    "data-hora": "2024-04-17 17:12:52"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10229820092",
+    "resposta": "Nenhum alerta encontrado para 10229820092",
+    "data-hora": "2024-04-17 17:12:53"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370061",
+    "resposta": "Nenhum alerta encontrado para 10407370061",
+    "data-hora": "2024-04-17 17:12:53"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10349000190",
+    "resposta": "Nenhum alerta encontrado para 10349000190",
+    "data-hora": "2024-04-17 17:12:53"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/NT",
+    "resposta": "Nenhum alerta encontrado para NT",
+    "data-hora": "2024-04-17 17:12:53"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370128",
+    "resposta": "Nenhum alerta encontrado para 10407370128",
+    "data-hora": "2024-04-17 17:12:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224629051",
+    "resposta": "Nenhum alerta encontrado para 10224629051",
+    "data-hora": "2024-04-17 17:12:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80218930003",
+    "resposta": "Nenhum alerta encontrado para 80218930003",
+    "data-hora": "2024-04-17 17:12:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10008530367",
+    "data-hora": "2024-04-17 17:12:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620052",
+    "resposta": "Nenhum alerta encontrado para 10224620052",
+    "data-hora": "2024-04-17 17:12:55"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80009860008",
+    "resposta": "Nenhum alerta encontrado para 80009860008",
+    "data-hora": "2024-04-17 17:12:55"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10349000490",
+    "resposta": "Nenhum alerta encontrado para 10349000490",
+    "data-hora": "2024-04-17 17:12:55"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10349590044",
+    "resposta": "Nenhum alerta encontrado para 10349590044",
+    "data-hora": "2024-04-17 17:12:55"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370091",
+    "data-hora": "2024-04-17 17:12:56"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80370820016",
+    "resposta": "Nenhum alerta encontrado para 80370820016",
+    "data-hora": "2024-04-17 17:12:56"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80370820014",
+    "resposta": "Nenhum alerta encontrado para 80370820014",
+    "data-hora": "2024-04-17 17:12:56"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370120",
+    "resposta": "Nenhum alerta encontrado para 10407370120",
+    "data-hora": "2024-04-17 17:12:56"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10345500099",
+    "resposta": "Nenhum alerta encontrado para 10345500099",
+    "data-hora": "2024-04-17 17:12:57"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80105670001",
+    "resposta": "Nenhum alerta encontrado para 80105670001",
+    "data-hora": "2024-04-17 17:12:59"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80022060095",
+    "resposta": "Nenhum alerta encontrado para 80022060095",
+    "data-hora": "2024-04-17 17:13:02"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620068",
+    "resposta": "Nenhum alerta encontrado para 10224620068",
+    "data-hora": "2024-04-17 17:13:02"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10242950010",
+    "resposta": "Nenhum alerta encontrado para 10242950010",
+    "data-hora": "2024-04-17 17:13:16"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80659160004",
+    "resposta": "Nenhum alerta encontrado para 80659160004",
+    "data-hora": "2024-04-17 17:13:17"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10234379008",
+    "resposta": "Nenhum alerta encontrado para 10234379008",
+    "data-hora": "2024-04-17 17:13:17"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/81356112338",
+    "resposta": "Nenhum alerta encontrado para 81356112338",
+    "data-hora": "2024-04-17 17:13:17"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10293490016",
+    "resposta": "Nenhum alerta encontrado para 10293490016",
+    "data-hora": "2024-04-17 17:13:18"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80127840018",
+    "resposta": "Nenhum alerta encontrado para 80127840018",
+    "data-hora": "2024-04-17 17:13:18"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80370820011",
+    "resposta": "Nenhum alerta encontrado para 80370820011",
+    "data-hora": "2024-04-17 17:13:18"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10345500051",
+    "resposta": "Nenhum alerta encontrado para 10345500051",
+    "data-hora": "2024-04-17 17:13:19"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10216710061",
+    "data-hora": "2024-04-17 17:13:19"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80047300487",
+    "data-hora": "2024-04-17 17:13:20"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80631670001",
+    "resposta": "Nenhum alerta encontrado para 80631670001",
+    "data-hora": "2024-04-17 17:13:21"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80370820017",
+    "resposta": "Nenhum alerta encontrado para 80370820017",
+    "data-hora": "2024-04-17 17:13:21"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10216710284",
+    "resposta": "Nenhum alerta encontrado para 10216710284",
+    "data-hora": "2024-04-17 17:13:21"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80023760003",
+    "resposta": "Nenhum alerta encontrado para 80023760003",
+    "data-hora": "2024-04-17 17:13:22"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10293490038",
+    "resposta": "Nenhum alerta encontrado para 10293490038",
+    "data-hora": "2024-04-17 17:13:22"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80102511334",
+    "resposta": "Nenhum alerta encontrado para 80102511334",
+    "data-hora": "2024-04-17 17:13:22"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80112559001",
+    "resposta": "Nenhum alerta encontrado para 80112559001",
+    "data-hora": "2024-04-17 17:13:23"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10349000358",
+    "resposta": "Nenhum alerta encontrado para 10349000358",
+    "data-hora": "2024-04-17 17:13:23"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620066",
+    "resposta": "Nenhum alerta encontrado para 10224620066",
+    "data-hora": "2024-04-17 17:13:23"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80012280106",
+    "resposta": "Nenhum alerta encontrado para 80012280106",
+    "data-hora": "2024-04-17 17:13:24"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80012280148",
+    "resposta": "Nenhum alerta encontrado para 80012280148",
+    "data-hora": "2024-04-17 17:13:24"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10345161979",
+    "resposta": "Nenhum alerta encontrado para 10345161979",
+    "data-hora": "2024-04-17 17:13:24"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80389130008",
+    "resposta": "Nenhum alerta encontrado para 80389130008",
+    "data-hora": "2024-04-17 17:13:25"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10319090010",
+    "resposta": "Nenhum alerta encontrado para 10319090010",
+    "data-hora": "2024-04-17 17:13:25"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10293490043",
+    "resposta": "Nenhum alerta encontrado para 10293490043",
+    "data-hora": "2024-04-17 17:13:25"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10293490024",
+    "resposta": "Nenhum alerta encontrado para 10293490024",
+    "data-hora": "2024-04-17 17:13:25"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80062879001",
+    "resposta": "Nenhum alerta encontrado para 80062879001",
+    "data-hora": "2024-04-17 17:13:26"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80560319002",
+    "resposta": "Nenhum alerta encontrado para 80560319002",
+    "data-hora": "2024-04-17 17:13:26"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10222460045",
+    "resposta": "Nenhum alerta encontrado para 10222460045",
+    "data-hora": "2024-04-17 17:13:27"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80153030091",
+    "resposta": "Nenhum alerta encontrado para 80153030091",
+    "data-hora": "2024-04-17 17:13:27"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10222460078",
+    "resposta": "Nenhum alerta encontrado para 10222460078",
+    "data-hora": "2024-04-17 17:13:27"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80119610009",
+    "resposta": "Nenhum alerta encontrado para 80119610009",
+    "data-hora": "2024-04-17 17:13:28"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80176420003",
+    "resposta": "Nenhum alerta encontrado para 80176420003",
+    "data-hora": "2024-04-17 17:13:28"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80071260319",
+    "resposta": "Nenhum alerta encontrado para 80071260319",
+    "data-hora": "2024-04-17 17:13:28"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/81628579002",
+    "resposta": "Nenhum alerta encontrado para 81628579002",
+    "data-hora": "2024-04-17 17:13:29"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370074",
+    "resposta": "Nenhum alerta encontrado para 10407370074",
+    "data-hora": "2024-04-17 17:13:29"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80071260210",
+    "resposta": "Nenhum alerta encontrado para 80071260210",
+    "data-hora": "2024-04-17 17:13:29"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80070219019",
+    "resposta": "Nenhum alerta encontrado para 80070219019",
+    "data-hora": "2024-04-17 17:13:37"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370098",
+    "resposta": "Nenhum alerta encontrado para 10407370098",
+    "data-hora": "2024-04-17 17:13:38"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620077",
+    "resposta": "Nenhum alerta encontrado para 10224620077",
+    "data-hora": "2024-04-17 17:13:38"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80497200010",
+    "resposta": "Nenhum alerta encontrado para 80497200010",
+    "data-hora": "2024-04-17 17:13:39"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10247670033",
+    "data-hora": "2024-04-17 17:13:40"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620069",
+    "resposta": "Nenhum alerta encontrado para 10224620069",
+    "data-hora": "2024-04-17 17:13:40"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80136990463",
+    "resposta": "Nenhum alerta encontrado para 80136990463",
+    "data-hora": "2024-04-17 17:13:41"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620070",
+    "resposta": "Nenhum alerta encontrado para 10224620070",
+    "data-hora": "2024-04-17 17:13:41"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620005",
+    "resposta": "Nenhum alerta encontrado para 10224620005",
+    "data-hora": "2024-04-17 17:13:45"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620065",
+    "resposta": "Nenhum alerta encontrado para 10224620065",
+    "data-hora": "2024-04-17 17:13:45"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10345162127",
+    "data-hora": "2024-04-17 17:13:45"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370110",
+    "resposta": "Nenhum alerta encontrado para 10407370110",
+    "data-hora": "2024-04-17 17:13:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80384380062",
+    "resposta": "Nenhum alerta encontrado para 80384380062",
+    "data-hora": "2024-04-17 17:13:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10150479037",
+    "resposta": "Nenhum alerta encontrado para 10150479037",
+    "data-hora": "2024-04-17 17:13:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620054",
+    "resposta": "Nenhum alerta encontrado para 10224620054",
+    "data-hora": "2024-04-17 17:13:55"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/82009779002",
+    "resposta": "Nenhum alerta encontrado para 82009779002",
+    "data-hora": "2024-04-17 17:13:56"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80497200009",
+    "resposta": "Nenhum alerta encontrado para 80497200009",
+    "data-hora": "2024-04-17 17:13:59"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10301819006",
+    "resposta": "Nenhum alerta encontrado para 10301819006",
+    "data-hora": "2024-04-17 17:13:59"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10243070041",
+    "resposta": "Nenhum alerta encontrado para 10243070041",
+    "data-hora": "2024-04-17 17:14:03"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10309310010",
+    "resposta": "Nenhum alerta encontrado para 10309310010",
+    "data-hora": "2024-04-17 17:14:06"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/VIGENTE",
+    "resposta": "Nenhum alerta encontrado para VIGENTE",
+    "data-hora": "2024-04-17 17:14:09"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10243070053",
+    "resposta": "Nenhum alerta encontrado para 10243070053",
+    "data-hora": "2024-04-17 17:36:19"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80070219091",
+    "resposta": "Nenhum alerta encontrado para 80070219091",
+    "data-hora": "2024-04-17 17:36:19"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/CANCELADO",
+    "resposta": "Nenhum alerta encontrado para CANCELADO",
+    "data-hora": "2024-04-17 17:36:21"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10216710210",
+    "resposta": "Nenhum alerta encontrado para 10216710210",
+    "data-hora": "2024-04-17 17:36:33"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/81838249001",
+    "resposta": "Nenhum alerta encontrado para 81838249001",
+    "data-hora": "2024-04-17 17:36:35"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80133950086",
+    "resposta": "Nenhum alerta encontrado para 80133950086",
+    "data-hora": "2024-04-17 17:36:49"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80407799004",
+    "resposta": "Nenhum alerta encontrado para 80407799004",
+    "data-hora": "2024-04-17 17:37:03"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80197340006",
+    "data-hora": "2024-04-17 17:37:05"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80273140004",
+    "resposta": "Nenhum alerta encontrado para 80273140004",
+    "data-hora": "2024-04-17 18:01:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10008530367",
+    "data-hora": "2024-04-17 18:01:57"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/�",
+    "resposta": "Nenhum alerta encontrado para �",
+    "data-hora": "2024-04-17 18:01:58"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80105670001",
+    "resposta": "Nenhum alerta encontrado para 80105670001",
+    "data-hora": "2024-04-17 18:01:58"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80172580001",
+    "resposta": "Nenhum alerta encontrado para 80172580001",
+    "data-hora": "2024-04-17 18:01:58"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80218930003",
+    "resposta": "Nenhum alerta encontrado para 80218930003",
+    "data-hora": "2024-04-17 18:01:58"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10188530031",
+    "resposta": "Nenhum alerta encontrado para 10188530031",
+    "data-hora": "2024-04-17 18:01:59"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80071310021",
+    "resposta": "Nenhum alerta encontrado para 80071310021",
+    "data-hora": "2024-04-17 18:01:59"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10349009003",
+    "resposta": "Nenhum alerta encontrado para 10349009003",
+    "data-hora": "2024-04-17 18:01:59"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10349000393",
+    "data-hora": "2024-04-17 18:01:59"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10216710305",
+    "data-hora": "2024-04-17 18:02:00"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/81356112338",
+    "resposta": "Nenhum alerta encontrado para 81356112338",
+    "data-hora": "2024-04-17 18:02:00"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10222460078",
+    "resposta": "Nenhum alerta encontrado para 10222460078",
+    "data-hora": "2024-04-17 18:02:02"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80795959001",
+    "resposta": "Nenhum alerta encontrado para 80795959001",
+    "data-hora": "2024-04-17 18:02:05"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80062879001",
+    "resposta": "Nenhum alerta encontrado para 80062879001",
+    "data-hora": "2024-04-17 18:02:06"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/8000986000",
+    "resposta": "Nenhum alerta encontrado para 8000986000",
+    "data-hora": "2024-04-17 18:02:10"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80112550003",
+    "resposta": "Nenhum alerta encontrado para 80112550003",
+    "data-hora": "2024-04-17 18:02:17"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370061",
+    "resposta": "Nenhum alerta encontrado para 10407370061",
+    "data-hora": "2024-04-17 18:02:19"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10091160003",
+    "resposta": "Nenhum alerta encontrado para 10091160003",
+    "data-hora": "2024-04-17 18:02:28"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370120",
+    "resposta": "Nenhum alerta encontrado para 10407370120",
+    "data-hora": "2024-04-17 18:02:28"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10229829004",
+    "resposta": "Nenhum alerta encontrado para 10229829004",
+    "data-hora": "2024-04-17 18:02:55"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/1034000190",
+    "resposta": "Nenhum alerta encontrado para 1034000190",
+    "data-hora": "2024-04-17 18:02:55"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10293490040",
+    "resposta": "Nenhum alerta encontrado para 10293490040",
+    "data-hora": "2024-04-17 18:02:55"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10293490035",
+    "resposta": "Nenhum alerta encontrado para 10293490035",
+    "data-hora": "2024-04-17 18:02:56"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80377980002",
+    "resposta": "Nenhum alerta encontrado para 80377980002",
+    "data-hora": "2024-04-17 18:02:56"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10247670033",
+    "data-hora": "2024-04-17 18:02:56"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10247670011",
+    "resposta": "Nenhum alerta encontrado para 10247670011",
+    "data-hora": "2024-04-17 18:02:56"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80145110160",
+    "resposta": "Nenhum alerta encontrado para 80145110160",
+    "data-hora": "2024-04-17 18:02:57"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80145110159",
+    "resposta": "Nenhum alerta encontrado para 80145110159",
+    "data-hora": "2024-04-17 18:02:57"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620066",
+    "resposta": "Nenhum alerta encontrado para 10224620066",
+    "data-hora": "2024-04-17 18:02:57"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10242950009",
+    "resposta": "Nenhum alerta encontrado para 10242950009",
+    "data-hora": "2024-04-17 18:02:58"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10216710271",
+    "data-hora": "2024-04-17 18:02:58"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10242950010",
+    "resposta": "Nenhum alerta encontrado para 10242950010",
+    "data-hora": "2024-04-17 18:02:58"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10216710222",
+    "data-hora": "2024-04-17 18:02:59"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370091",
+    "data-hora": "2024-04-17 18:02:59"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80370820017",
+    "resposta": "Nenhum alerta encontrado para 80370820017",
+    "data-hora": "2024-04-17 18:02:59"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80370820011",
+    "resposta": "Nenhum alerta encontrado para 80370820011",
+    "data-hora": "2024-04-17 18:03:00"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10293490043",
+    "resposta": "Nenhum alerta encontrado para 10293490043",
+    "data-hora": "2024-04-17 18:03:00"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10238040033",
+    "resposta": "Nenhum alerta encontrado para 10238040033",
+    "data-hora": "2024-04-17 18:03:01"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10345500051",
+    "resposta": "Nenhum alerta encontrado para 10345500051",
+    "data-hora": "2024-04-17 18:03:01"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80127849010",
+    "resposta": "Nenhum alerta encontrado para 80127849010",
+    "data-hora": "2024-04-17 18:03:01"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80145110213",
+    "resposta": "Nenhum alerta encontrado para 80145110213",
+    "data-hora": "2024-04-17 18:03:02"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/1021671003",
+    "resposta": "Nenhum alerta encontrado para 1021671003",
+    "data-hora": "2024-04-17 18:03:03"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10293490001",
+    "resposta": "Nenhum alerta encontrado para 10293490001",
+    "data-hora": "2024-04-17 18:03:03"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/801278400018",
+    "resposta": "Nenhum alerta encontrado para 801278400018",
+    "data-hora": "2024-04-17 18:03:03"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80071260367",
+    "resposta": "Nenhum alerta encontrado para 80071260367",
+    "data-hora": "2024-04-17 18:03:05"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10293490037",
+    "resposta": "Nenhum alerta encontrado para 10293490037",
+    "data-hora": "2024-04-17 18:03:05"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80659160003",
+    "resposta": "Nenhum alerta encontrado para 80659160003",
+    "data-hora": "2024-04-17 18:03:05"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80659160004",
+    "resposta": "Nenhum alerta encontrado para 80659160004",
+    "data-hora": "2024-04-17 18:03:06"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80275310041",
+    "resposta": "Nenhum alerta encontrado para 80275310041",
+    "data-hora": "2024-04-17 18:03:06"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370110",
+    "resposta": "Nenhum alerta encontrado para 10407370110",
+    "data-hora": "2024-04-17 18:03:07"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80370820016",
+    "resposta": "Nenhum alerta encontrado para 80370820016",
+    "data-hora": "2024-04-17 18:03:08"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10216710274",
+    "resposta": "Nenhum alerta encontrado para 10216710274",
+    "data-hora": "2024-04-17 18:03:09"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10345161979",
+    "resposta": "Nenhum alerta encontrado para 10345161979",
+    "data-hora": "2024-04-17 18:03:10"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370098",
+    "resposta": "Nenhum alerta encontrado para 10407370098",
+    "data-hora": "2024-04-17 18:03:14"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10150479037�",
+    "resposta": "Nenhum alerta encontrado para 10150479037�",
+    "data-hora": "2024-04-17 18:03:14"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10345500043",
+    "resposta": "Nenhum alerta encontrado para 10345500043",
+    "data-hora": "2024-04-17 18:03:15"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10008530368",
+    "resposta": "Nenhum alerta encontrado para 10008530368",
+    "data-hora": "2024-04-17 18:03:15"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224629051",
+    "resposta": "Nenhum alerta encontrado para 10224629051",
+    "data-hora": "2024-04-17 18:03:15"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80071260307",
+    "resposta": "Nenhum alerta encontrado para 80071260307",
+    "data-hora": "2024-04-17 18:03:20"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10301819006",
+    "resposta": "Nenhum alerta encontrado para 10301819006",
+    "data-hora": "2024-04-17 18:03:25"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80071260319",
+    "resposta": "Nenhum alerta encontrado para 80071260319",
+    "data-hora": "2024-04-17 18:03:26"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10216710305",
+    "data-hora": "2024-04-17 18:10:47"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370020",
+    "resposta": "Nenhum alerta encontrado para 10407370020",
+    "data-hora": "2024-04-17 18:10:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370110",
+    "resposta": "Nenhum alerta encontrado para 10407370110",
+    "data-hora": "2024-04-17 18:10:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10349000190",
+    "resposta": "Nenhum alerta encontrado para 10349000190",
+    "data-hora": "2024-04-17 18:10:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10008530367",
+    "data-hora": "2024-04-17 18:10:55"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80012280148",
+    "resposta": "Nenhum alerta encontrado para 80012280148",
+    "data-hora": "2024-04-17 18:10:55"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10229829004",
+    "resposta": "Nenhum alerta encontrado para 10229829004",
+    "data-hora": "2024-04-17 18:10:55"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80009860008",
+    "resposta": "Nenhum alerta encontrado para 80009860008",
+    "data-hora": "2024-04-17 18:10:55"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10242950009",
+    "resposta": "Nenhum alerta encontrado para 10242950009",
+    "data-hora": "2024-04-17 18:10:56"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620067",
+    "resposta": "Nenhum alerta encontrado para 10224620067",
+    "data-hora": "2024-04-17 18:10:56"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370098",
+    "resposta": "Nenhum alerta encontrado para 10407370098",
+    "data-hora": "2024-04-17 18:10:56"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80218930003",
+    "resposta": "Nenhum alerta encontrado para 80218930003",
+    "data-hora": "2024-04-17 18:10:56"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80062879001",
+    "resposta": "Nenhum alerta encontrado para 80062879001",
+    "data-hora": "2024-04-17 18:10:57"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80105670001",
+    "resposta": "Nenhum alerta encontrado para 80105670001",
+    "data-hora": "2024-04-17 18:10:57"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370091",
+    "data-hora": "2024-04-17 18:10:57"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/ISENTO",
+    "resposta": "Nenhum alerta encontrado para ISENTO",
+    "data-hora": "2024-04-17 18:11:03"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10234379008",
+    "resposta": "Nenhum alerta encontrado para 10234379008",
+    "data-hora": "2024-04-17 18:11:04"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80127840023",
+    "resposta": "Nenhum alerta encontrado para 80127840023",
+    "data-hora": "2024-04-17 18:11:04"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10216710222",
+    "data-hora": "2024-04-17 18:11:04"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620053",
+    "resposta": "Nenhum alerta encontrado para 10224620053",
+    "data-hora": "2024-04-17 18:11:04"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80659160003",
+    "resposta": "Nenhum alerta encontrado para 80659160003",
+    "data-hora": "2024-04-17 18:11:07"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620035",
+    "resposta": "Nenhum alerta encontrado para 10224620035",
+    "data-hora": "2024-04-17 18:11:07"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80052640002",
+    "resposta": "Nenhum alerta encontrado para 80052640002",
+    "data-hora": "2024-04-17 18:11:18"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10293490038",
+    "resposta": "Nenhum alerta encontrado para 10293490038",
+    "data-hora": "2024-04-17 18:11:18"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80127840018",
+    "resposta": "Nenhum alerta encontrado para 80127840018",
+    "data-hora": "2024-04-17 18:11:18"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10319090010",
+    "resposta": "Nenhum alerta encontrado para 10319090010",
+    "data-hora": "2024-04-17 18:11:19"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620070",
+    "resposta": "Nenhum alerta encontrado para 10224620070",
+    "data-hora": "2024-04-17 18:11:19"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10362610008",
+    "resposta": "Nenhum alerta encontrado para 10362610008",
+    "data-hora": "2024-04-17 18:11:19"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80012280106",
+    "resposta": "Nenhum alerta encontrado para 80012280106",
+    "data-hora": "2024-04-17 18:11:24"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620049",
+    "resposta": "Nenhum alerta encontrado para 10224620049",
+    "data-hora": "2024-04-17 18:11:25"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10407370120",
+    "resposta": "Nenhum alerta encontrado para 10407370120",
+    "data-hora": "2024-04-17 18:11:25"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620052",
+    "resposta": "Nenhum alerta encontrado para 10224620052",
+    "data-hora": "2024-04-17 18:11:25"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80659160004",
+    "resposta": "Nenhum alerta encontrado para 80659160004",
+    "data-hora": "2024-04-17 18:11:28"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10349000490",
+    "resposta": "Nenhum alerta encontrado para 10349000490",
+    "data-hora": "2024-04-17 18:11:34"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/1021670284",
+    "resposta": "Nenhum alerta encontrado para 1021670284",
+    "data-hora": "2024-04-17 18:11:35"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620044",
+    "resposta": "Nenhum alerta encontrado para 10224620044",
+    "data-hora": "2024-04-17 18:11:45"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10362610001",
+    "resposta": "Nenhum alerta encontrado para 10362610001",
+    "data-hora": "2024-04-17 18:11:45"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10234370059",
+    "resposta": "Nenhum alerta encontrado para 10234370059",
+    "data-hora": "2024-04-17 18:11:46"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10216710182",
+    "resposta": "Nenhum alerta encontrado para 10216710182",
+    "data-hora": "2024-04-17 18:11:47"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/81356112338",
+    "resposta": "Nenhum alerta encontrado para 81356112338",
+    "data-hora": "2024-04-17 18:11:48"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10326379006",
+    "resposta": "Nenhum alerta encontrado para 10326379006",
+    "data-hora": "2024-04-17 18:11:48"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10345500051",
+    "resposta": "Nenhum alerta encontrado para 10345500051",
+    "data-hora": "2024-04-17 18:11:49"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10234370018",
+    "resposta": "Nenhum alerta encontrado para 10234370018",
+    "data-hora": "2024-04-17 18:11:49"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80127849010",
+    "resposta": "Nenhum alerta encontrado para 80127849010",
+    "data-hora": "2024-04-17 18:11:50"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10243240052",
+    "resposta": "Nenhum alerta encontrado para 10243240052",
+    "data-hora": "2024-04-17 18:11:50"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10243240031",
+    "resposta": "Nenhum alerta encontrado para 10243240031",
+    "data-hora": "2024-04-17 18:11:50"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620068",
+    "resposta": "Nenhum alerta encontrado para 10224620068",
+    "data-hora": "2024-04-17 18:11:52"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620065",
+    "resposta": "Nenhum alerta encontrado para 10224620065",
+    "data-hora": "2024-04-17 18:11:52"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10224620037",
+    "resposta": "Nenhum alerta encontrado para 10224620037",
+    "data-hora": "2024-04-17 18:11:53"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80102510540",
+    "resposta": "Nenhum alerta encontrado para 80102510540",
+    "data-hora": "2024-04-17 18:11:53"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80413769002",
+    "resposta": "Nenhum alerta encontrado para 80413769002",
+    "data-hora": "2024-04-17 18:11:53"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10332340170",
+    "resposta": "Nenhum alerta encontrado para 10332340170",
+    "data-hora": "2024-04-17 18:11:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10349590060",
+    "resposta": "Nenhum alerta encontrado para 10349590060",
+    "data-hora": "2024-04-17 18:11:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80337650003",
+    "resposta": "Nenhum alerta encontrado para 80337650003",
+    "data-hora": "2024-04-17 18:11:54"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/1021670156",
+    "resposta": "Nenhum alerta encontrado para 1021670156",
+    "data-hora": "2024-04-17 18:11:55"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80136710135",
+    "resposta": "Nenhum alerta encontrado para 80136710135",
+    "data-hora": "2024-04-17 18:11:58"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80337650007",
+    "resposta": "Nenhum alerta encontrado para 80337650007",
+    "data-hora": "2024-04-17 18:11:58"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10222460078",
+    "resposta": "Nenhum alerta encontrado para 10222460078",
+    "data-hora": "2024-04-17 18:11:58"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10216710127",
+    "resposta": "Nenhum alerta encontrado para 10216710127",
+    "data-hora": "2024-04-17 18:11:58"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10370060008",
+    "resposta": "Nenhum alerta encontrado para 10370060008",
+    "data-hora": "2024-04-17 18:12:00"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10349000393",
+    "data-hora": "2024-04-17 18:12:02"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80011680021",
+    "resposta": "Nenhum alerta encontrado para 80011680021",
+    "data-hora": "2024-04-17 18:12:03"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80337650008",
+    "resposta": "Nenhum alerta encontrado para 80337650008",
+    "data-hora": "2024-04-17 18:12:04"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80136710132",
+    "resposta": "Nenhum alerta encontrado para 80136710132",
+    "data-hora": "2024-04-17 18:12:04"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80497200009",
+    "resposta": "Nenhum alerta encontrado para 80497200009",
+    "data-hora": "2024-04-17 18:12:05"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10349590143",
+    "resposta": "Nenhum alerta encontrado para 10349590143",
+    "data-hora": "2024-04-17 18:12:08"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80070210019",
+    "resposta": "Nenhum alerta encontrado para 80070210019",
+    "data-hora": "2024-04-17 18:12:08"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80337650005",
+    "resposta": "Nenhum alerta encontrado para 80337650005",
+    "data-hora": "2024-04-17 18:12:09"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/1021670046",
+    "resposta": "Nenhum alerta encontrado para 1021670046",
+    "data-hora": "2024-04-17 18:12:13"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10356029016",
+    "resposta": "Nenhum alerta encontrado para 10356029016",
+    "data-hora": "2024-04-17 18:12:13"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80273140004",
+    "resposta": "Nenhum alerta encontrado para 80273140004",
+    "data-hora": "2024-04-17 18:12:16"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10293490040",
+    "resposta": "Nenhum alerta encontrado para 10293490040",
+    "data-hora": "2024-04-17 18:12:17"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10178010276",
+    "resposta": "Nenhum alerta encontrado para 10178010276",
+    "data-hora": "2024-04-17 18:12:18"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80011800007",
+    "resposta": "Nenhum alerta encontrado para 80011800007",
+    "data-hora": "2024-04-17 18:12:20"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80146502070",
+    "data-hora": "2024-04-18 00:22:39"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/%22",
+    "resposta": "Nenhum alerta encontrado para \"",
+    "data-hora": "2024-04-18 11:16:07"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/745454545",
+    "resposta": "Nenhum alerta encontrado para 745454545",
+    "data-hora": "2024-04-18 11:16:14"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/81246984632",
+    "data-hora": "2024-04-18 11:16:22"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/81246984632",
+    "data-hora": "2024-04-18 11:20:47"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/81246984632",
+    "data-hora": "2024-04-18 12:42:26"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/81246984632",
+    "data-hora": "2024-04-18 12:42:39"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/80146502070",
+    "data-hora": "2024-04-18 13:13:28"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/10238040019",
+    "resposta": "Nenhum alerta encontrado para 10238040019",
+    "data-hora": "2024-04-18 16:28:22"
+  },
+  {
+    "IP": "10.0.0.20",
+    "url": "https://brunoroma.pythonanywhere.com/registro/88800545",
+    "resposta": "Nenhum alerta encontrado para 88800545",
+    "data-hora": "2024-04-22 17:44:11"
+  }
+]
