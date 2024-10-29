@@ -25,8 +25,8 @@ def scrape_page():
     alerta_mais_recente = int(titulo[7:12].strip())
 
     # acessar a paginação do site
-    print(f'range({ultimo_alerta_carregado}+1, {alerta_mais_recente})')
-    for i in range(ultimo_alerta_carregado+1, alerta_mais_recente):
+    print(f'range({ultimo_alerta_carregado+1}, {alerta_mais_recente+1})')
+    for i in range(ultimo_alerta_carregado+1, alerta_mais_recente+1):
         dicionario['Alerta'].append(i)
         url = f'https://www.anvisa.gov.br/sistec/Alerta/RelatorioAlerta.asp?NomeColuna=CO_SEQ_ALERTA&Parametro={i}'
         print(url)
